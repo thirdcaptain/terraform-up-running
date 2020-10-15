@@ -1,8 +1,7 @@
-#hard-coded credentials expire when AWS sandbox disappears
-#Need to pass in via environmental variables
+#passing in keys via environmental variables
 provider "aws" {
-	access_key	= ""
-	secret_key	= ""
+#	access_key	= ""
+#	secret_key	= ""
 	region 		= "us-east-1"
 }
 
